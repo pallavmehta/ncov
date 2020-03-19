@@ -19,7 +19,7 @@ translators: Pallav Mehta
 translatorLinks:
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "यह कथा बताती है कि जीनोमिक महामारी विज्ञान को सूचित करने वाले फ़ाइलोजेनेटिक पेड़ों को कैसे पढ़ें और व्याख्या करें। यह वेबसाइट डेस्कटॉप ब्राउज़रों पर प्रदर्शन के लिए अनुकूलित है."
+abstract: "यह कथा बताती है कि जीनोमिक महामारी विज्ञान को सूचित करने वाले फ़ाइलोजेनेटिक पेड़ों को कैसे पढ़ें और व्याख्या करें। यह वेबसाइट डेस्कटॉप ब्राउज़रों पर प्रदर्शन के लिए अनुकूलित है।"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -46,22 +46,27 @@ abstract: "यह कथा बताती है कि जीनोमिक 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [पारेषण नेटवर्क और फ़ाइलोजेनेटिक पेड़ों का संबंध](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+रोगज़नक़ एक मेजबान जीव में तेजी से प्रतिकृति के माध्यम से फैलता है, और फिर दूसरे मेजबान जीव में संचारित होते हैं। 
+एक महामारी तभी फैल सकती है जब एक संक्रमण के परिणाम से एक से अधिक संक्रमण हो।
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+जब रोगज़नक़ प्रजनन करता है और फैलता है, तो इसके जीनोम को कई बार दोहराया जाता है और जीनोम में यादृच्छिक उत्परिवर्तन (गलतियों की नकल) जमाा हो जााते है। 
+इस तरह के यादृच्छिक उत्परिवर्तन रोगज़नक़ों के प्रसार पर नजर रखने और इसके संचरण मार्गों और गतिशीलता के बारे में जानने में मदद कर सकते हैं।
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# एक उदाहरण
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+
+ऊपर दिया गया चित्रण एक संचरण वृक्ष का रेखाचित्र दिखाता है। प्रत्येक सर्कल एक मामले (संक्रमित व्यक्ति) का प्रतिनिधित्व करता है, जिसमें क्षैतिज रेखाएं उनके संक्रमण की अवधि को दर्शाती हैं। जुड़े हुए मामले एक व्यक्ति से दूसरे व्यक्ति तक प्रसारण का प्रतिनिधित्व करते हैं।
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+यहां, हम संचरण वृक्ष की पूरी तस्वीर देखते हैं। व्यवहार में, हालांकि, केवल कुछ मामलों को ही एकत्र किया जा सकता है (नीला); 
+संचरण वृक्ष आम तौर पर अज्ञात होते हैं और मामलों की गिनती के केवल मोटे अनुमान उपलब्ध होते हैं। जीनोम सीक्वेंस हमें संचरण वृक्ष के हिस्सों का पता लगाने की अनुमति देते हैं। 
+इस उदाहरण में, तीन उत्परिवर्तन (छोटे हीरे) पेड़ पर इंगित किए गए हैं। समान उत्परिवर्तन वाले सीक्वेंस अधिक निकटता से संबंधित हैं, इसलिए ये उत्परिवर्तन हमें निकट संबंधी विषाणु के समूहों, जो समान संचरण श्रृंखलाओं से संबंधित हैं, में नमूनों को व्यवस्थित करने की अनुमति देते हैं।
 </p>
 </div>
 ```
@@ -70,21 +75,22 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [पेड़ कैसे पढ़े जाते हैं](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+पेड़ का क्षैतिज अक्ष अंतर के परिमाण का प्रतिनिधित्व करता है (समय या आनुवंशिक विचलन में अंतर--हम इसे आगे समझेंगे). खड़ा अक्ष केवल चीजों को फैलाने में मदद करता है ताकि हम सब कुछ देख सकें; यह महत्वपूर्ण नहीं है।
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+पेड़ की युक्तियाँ नमूनों का प्रतिनिधित्व करती हैं (यानी, पिछली स्लाइड से नीले रंग के मामले)। आंतरिक नोड गैर-नमूना मामलों का प्रतिनिधित्व करते हैं जो उन मामलों के स्रोत थे जो उनसे उतारे गए (यानी, पिछली स्लाइड से लाल रंग के मामले)। इन संबंधों का अनुमान नमूना मामलों में देखे गए उत्परिवर्तन के पैटर्न का विश्लेषण करके लगाया जाता है।
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## एक उदाहरण
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+ऊपर, बाईं ओर एक फ़्लोजेनेटिक पेड़ का दृष्टांत है जहां उत्परिवर्तन को रंगीन मंडलियों के रूप में दिखाया गया है। दाईं ओर उनके सीक्वेंस हैं, जिसमें उत्परिवर्तन को रंगीन मंडलियों के रूप में दिखाया गया है। हम देख सकते हैं कि सीक्वेंस जो समान उत्परिवर्तन को साझा करते हैं एक साथ दिखाई देते हैं. जब सीक्वेंस एक रेखा से जुड़े दिखते हैं, जैसे A और B, 
+इसका मतलब है कि उनके बीच कोई अंतर नहीं हैं – उनके सीक्वेंस समान हैं।
 <br><br>
 When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
