@@ -1,5 +1,5 @@
 ---
-title: How to interpret phylogenetic trees
+title: फाइलेगनेटिक पेड़ों को कैसे समझा जाये
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -19,7 +19,7 @@ translators: Pallav Mehta
 translatorLinks:
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "यह कथा बताती है कि जीनोमिक महामारी विज्ञान को सूचित करने वाले फ़ाइलोजेनेटिक पेड़ों को कैसे पढ़ें और व्याख्या करें। यह वेबसाइट डेस्कटॉप ब्राउज़रों पर प्रदर्शन के लिए अनुकूलित है."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -27,18 +27,18 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [विषय - सूची](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [पारेषण नेटवर्क और फ़ाइलोजेनेटिक पेड़ों का संबंध](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [पेड़ कैसे पढ़े जाते हैं](https://nextstrain.org/narratives/trees-background?n=2)?  
+* ["विविधता" पैनल पेड़ से कैसे संबंधित है](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [आनुवंशिक विचलन के साथ अंतर को मापना](https://nextstrain.org/narratives/trees-background?n=4).  
+* [समय के साथ अंतर को मापना](https://nextstrain.org/narratives/trees-background?n=5).  
+* [प्रकोप की शुरुआत की तारीख का निर्धारण](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [वृक्ष के लक्षणों (रंगों) की व्याख्या](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [नक्शा पेड़ से कैसे संबंधित है](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [उन्नत विवरण: पेड़ों में अनिश्चितता](https://nextstrain.org/narratives/trees-background?n=9).  
+* [डेटासेट के बारे में](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
